@@ -31,12 +31,13 @@ header, .one, footer {
     padding: 0 8rem 4rem;
 }
 
-h1 {
+h1, h3 {
     margin: 0 16px 0 0;
 }
 
 .sidekick {
     color:rgb(254, 188, 161);
+    margin: 0 0 1rem;
 }
 
 .logo {
@@ -88,11 +89,38 @@ figcaption {
     font-weight: 600;
 }
 
+.action-box {
+    display:flex;
+    background-color:forestgreen;
+    margin: 4rem 8rem;
+    border-radius: 10px;
+    color: mistyrose;
+    padding: 1.5rem 4rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+.action-box-sub {
+    display: flex;
+    flex-direction: column;
+}
+
 button {
-    width: 100px;
-    height: 1.5rem;
+    width: 8rem;
+    height: 2rem;
     font-family: serif;
-    border-radius: 12px;
+    border-radius: 16px;
+    background-color: forestgreen;
+    color: mistyrose;
+    font-size: 18px;
+}
+
+.signup2 {
+    border: 2px solid mistyrose;
+}
+
+p {
+    margin: 0;
 }
 
 ul {
