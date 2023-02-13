@@ -22,7 +22,7 @@ body {
     border-radius: 10%;
 }
 
-header, .one {
+header, .one, footer {
     background-color: firebrick;
     color: mistyrose;
     display: flex;
@@ -104,4 +104,10 @@ ul {
 a {
     text-decoration: none;
     color: mistyrose;
+}
+
+footer {
+    padding: 1rem;
+    justify-content: center;
+    font-weight: 500;
 }
