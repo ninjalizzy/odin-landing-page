@@ -110,7 +110,7 @@ figcaption {
 button {
     width: 8rem;
     height: 2rem;
-    font-family: serif;
+    font-family: Jost, serif;
     border-radius: 16px;
     background-color: forestgreen;
     color: mistyrose;
