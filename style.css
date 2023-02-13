@@ -54,6 +54,7 @@ h1 {
 
 .two {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 h2 {
@@ -74,6 +75,17 @@ h2 {
 
 .image-detail {
     margin: 4px;
+}
+
+.three {
+    background-color: rgb(251, 169, 169);
+    padding: 2rem 9rem;
+    font-size: 18px;
+}
+
+figcaption {
+    text-align: right;
+    font-weight: 600;
 }
 
 button {
