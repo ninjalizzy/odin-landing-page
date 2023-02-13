@@ -12,27 +12,46 @@ body {
 }
 
 .main-image {
-    width: 300px;
+    width: 400px;
 }
 
 .small-image {
     width: 100px;
 }
 
-header {
+header, .one {
     background-color: firebrick;
     color: mistyrose;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0 8rem 4rem;
+}
+
+h1 {
+    margin: 0 16px 0 0;
+}
+
+.sidekick {
+    color:rgb(254, 188, 161);
 }
 
 .logo {
     display: flex;
     align-items: center;
     gap: 1rem;
+    font-size: 24px;
     font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 80px;
+    font-family: serif;
 }
 
 ul {
