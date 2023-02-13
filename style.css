@@ -89,6 +89,7 @@ h2 {
 figcaption {
     text-align: right;
     font-weight: 600;
+    margin-right: 4rem;
 }
 
 .action-box {
