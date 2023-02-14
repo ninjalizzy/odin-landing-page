@@ -30,7 +30,7 @@ header, .one, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 8rem 3rem;
+    padding: 0 2rem 3rem;
 }
 
 h1, h3 {
@@ -53,8 +53,8 @@ h1, h3 {
 
 .container-one {
     display: flex;
-    /* align-items: center; */
-    max-width: 1000px;
+    align-items: center;
+    max-width: 65%;
     margin: 0 auto;
 }
 
@@ -70,7 +70,7 @@ h1, h3 {
 
 h2 {
     color: rgb(88, 16, 16);
-    margin: 28px;
+    margin: 28px auto;
 }
 
 .container-two {
