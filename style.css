@@ -30,7 +30,11 @@ header, .one, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 2rem 3rem;
+    padding: 0 4rem 3rem;
+}
+
+.one {
+    padding: 0 0 2rem;
 }
 
 h1, h3 {
@@ -54,7 +58,7 @@ h1, h3 {
 .container-one {
     display: flex;
     align-items: center;
-    max-width: 65%;
+    max-width: 70%;
     margin: 0 auto;
 }
 
@@ -97,7 +101,7 @@ h2 {
 }
 
 blockquote {
-    max-width: 80%;
+    max-width: 65%;
     margin: 0 auto 1rem;
     font-size: 20px;
     font-style: italic;
@@ -107,7 +111,7 @@ blockquote {
 figcaption {
     text-align: right;
     font-weight: 600;
-    margin-right: 4rem;
+    margin-right: 10rem;
 }
 
 
