@@ -75,7 +75,8 @@ h2 {
 
 .container-two {
     display: flex;
-    margin: 0 8rem;
+    margin: 0 auto;
+    max-width: 60%;
     gap: 1rem;
     flex: 1 1 auto;
 }
