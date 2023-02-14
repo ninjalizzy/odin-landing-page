@@ -51,7 +51,13 @@ h1, h3 {
     font-weight: 600;
 }
 
-.container-one, .card {
+.container-one {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero-text, .card {
     display: flex;
     flex-direction: column;
 }
@@ -135,6 +141,7 @@ button {
 p {
     font-family: Jost, sans-serif;
     margin: 0;
+    font-size: 18px;
 }
 
 ul {
