@@ -12,12 +12,6 @@ body {
     width: 30px;
 }
 
-.main-image {
-    max-width: 400px;
-    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-    margin-left: 4rem;
-}
-
 .small-image {
     width: 120px;
     border: 2px solid firebrick;
@@ -30,29 +24,11 @@ header, .one, footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 4rem 3rem;
+    padding: 0 15% 3rem;
 }
 
 .one {
     padding: 0 0 2rem;
-}
-
-h1, h3 {
-    margin: 0 16px 0 0;
-    font-weight: bold;
-}
-
-.sidekick {
-    color:rgb(254, 188, 161);
-    margin: 0 0 1rem;
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 .container-one {
@@ -65,6 +41,31 @@ h1, h3 {
 .hero-text, .card {
     display: flex;
     flex-direction: column;
+}
+
+.sidekick {
+    color:rgb(254, 188, 161);
+    margin: 0 0 1rem;
+}
+
+.main-image > * {
+    max-width: 400px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.4);
+    margin-left: 4rem;
+}
+
+h1, h3 {
+    margin: 0 16px 0 0;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .two {
@@ -101,7 +102,7 @@ h2 {
 }
 
 blockquote {
-    max-width: 65%;
+    max-width: 55%;
     margin: 0 auto 1rem;
     font-size: 20px;
     font-style: italic;
@@ -111,7 +112,7 @@ blockquote {
 figcaption {
     text-align: right;
     font-weight: 600;
-    margin-right: 20%;
+    margin-right: 25%;
 }
 
 
@@ -125,7 +126,7 @@ figcaption {
     gap: 3rem;
     align-items: center;
     justify-content: space-between;
-    max-width: 65%;
+    max-width: 60%;
 }
 
 .action-box-text {
