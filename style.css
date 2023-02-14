@@ -112,19 +112,19 @@ figcaption {
 
 
 .action-box {
-    display:flex;
+    display: flex;
     background-color:forestgreen;
-    margin: 4rem auto;
-    border-radius: 10px;
     color: mistyrose;
-    /* padding: 1.5rem 4rem; */
+    border-radius: 10px;
+    margin: 4rem auto; 
+    padding: 1.5rem 4rem;
     gap: 3rem;
     align-items: center;
     justify-content: space-between;
-    max-width: 80%;
+    max-width: 65%;
 }
 
-.action-box-sub {
+.action-box-text {
     display: flex;
     flex-direction: column;
 }
