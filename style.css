@@ -12,12 +12,6 @@ body {
     width: 30px;
 }
 
-.small-image {
-    width: 120px;
-    border: 2px solid firebrick;
-    border-radius: 10%;
-}
-
 header, .one, footer {
     background-color: firebrick;
     color: mistyrose;
@@ -80,6 +74,7 @@ h1, h3 {
 h2 {
     color: rgb(88, 16, 16);
     margin: 28px auto;
+    text-align: center;
 }
 
 .container-two {
@@ -91,6 +86,13 @@ h2 {
 
 .card {
     align-items: center;
+    flex: 1 1 0;
+}
+
+.small-image {
+    max-width: 120px;
+    border: 2px solid firebrick;
+    border-radius: 10%;
 }
 
 .image-detail {
@@ -105,7 +107,7 @@ h2 {
 }
 
 blockquote {
-    max-width: 55%;
+    max-width: 65%;
     margin: 0 auto 1rem;
     font-size: 20px;
     font-style: italic;
@@ -149,6 +151,7 @@ button {
 
 .signup2 {
     border: 2px solid mistyrose;
+    height: auto;
 }
 
 p {
